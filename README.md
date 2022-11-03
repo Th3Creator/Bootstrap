@@ -77,6 +77,8 @@ utilizando de alguns breakpoints pré definidos como:
   </tr>
 </table>
 
+-  Sendo o grid divido da seguinte forma de row (linhas) e col(colunas), uma maneira simples de se calcular a ocupação de cada um nas área do grid é fazer a divisão de 12 % por um número qualquer = o resto da divisão vai ser igual ao tanto de espaço que ele vai ocupar 
+
 
 ## ⚠️ Considerações finais
 
