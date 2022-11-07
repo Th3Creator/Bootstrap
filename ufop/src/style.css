@@ -1,0 +1,30 @@
+.imagem-carrosel{
+    object-fit: cover; /* essa propriedade do css diz como elemento referenciado ao seletor se comporta
+    de acordo com o container dele*/ 
+
+   /* esse cover irá cubrir tudo, ou seja, irá preencher todos os espaços do container de forma que
+    preserver a proporção*/ 
+
+   /*object-position: 0 80%;  movendo de acordo com o container que seria o pai dela, movendo sem haver distor
+   ção, fazendo essa movimentação de acordo com os dois eixos existentes, eixo X e eixo Y*/ 
+   height: 600px;
+}
+
+.logo{
+    object-fit: cover; 
+    height: 80px;
+}
+
+.fonte{
+    font-family: 'Arvo', serif;
+    color: #ad2a43;
+    font-size: 20px;
+}
+
+.cor-ufop{
+    color: #ad2a43; 
+}
+
+.back-color{
+    background-color: #ad2a43;
+}

@@ -1,0 +1,44 @@
+.imagem-carrosel{
+    object-fit: cover; /* essa propriedade do css diz como elemento referenciado ao seletor se comporta
+    de acordo com o container dele*/ 
+
+   /* esse cover irá cubrir tudo, ou seja, irá preencher todos os espaços do container de forma que
+    preserver a proporção*/ 
+
+   object-position: 0 80%; /* movendo de acordo com o container que seria o pai dela, movendo sem haver distor
+   ção, fazendo essa movimentação de acordo com os dois eixos existentes, eixo X e eixo Y*/ 
+   height: 600px;
+}
+/* Caso quisesse que não houvesse movimentação na posição da imagem, utilizariamos classes separadas*/
+
+.fonte-titulo{
+    font-family: 'Pacifico', cursive; 
+}
+
+.cor-especial{
+    color: darkred;
+}
+
+.texto-cor-especial{
+    color: darkred!important; /* Faz com que tenha relevância maior na hora da hierarquia das classes*/
+}
+
+.botao-cor-especial{
+    background-color: darkred;
+    color: white;
+    border-color: darkred;
+}
+
+.borda-cor-especial{
+    border-color: darkred;
+}
+
+.card-posicao-imagem {
+    object-fit: cover;
+    /* object-position: 0 80%; */
+    height: 200px;
+}
+
+.card-largura {
+    width: 18rem;
+}

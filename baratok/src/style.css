@@ -1,0 +1,27 @@
+.bg-color {
+    background-color: #1a1a1a;
+}
+
+.bordinha {
+    border:1px solid #1aa4d7;
+}
+/* cor azul bonitinha: #1aa4d7 */
+
+.imagem-carrosel{
+    object-fit: cover; /* essa propriedade do css diz como elemento referenciado ao seletor se comporta
+    de acordo com o container dele*/ 
+
+   /* esse cover irá cubrir tudo, ou seja, irá preencher todos os espaços do container de forma que
+    preserver a proporção*/ 
+
+   object-position: 0 0%; /* movendo de acordo com o container que seria o pai dela, movendo sem haver distor
+   ção, fazendo essa movimentação de acordo com os dois eixos existentes, eixo X e eixo Y*/ 
+   height: 560px;
+}
+
+.card-tam{
+    object-fit: cover;
+
+    height: 500px;
+    width: 100px;
+}
